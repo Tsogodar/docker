@@ -1,0 +1,11 @@
+version: '3'
+services:
+  enviroment-dev:
+    build: '.'
+    ports:
+      - "3000:3000"
+    volumes:
+      - C:/Users/marci/Desktop/Docker:/home/projects
+    privileged: true
+    stdin_open: true
+    tty: true
